@@ -1,0 +1,22 @@
+{
+  "name": "auth-practice-forme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.2",
+    "sqlite3": "^5.0.8"
+  }
+}
